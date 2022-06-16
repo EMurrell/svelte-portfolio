@@ -1,4 +1,5 @@
 <script context="module">
+	import ProjectCard from '$lib/components/project-card.svelte';
 	import { client } from '$lib/graphql-client';
 	import { gql } from 'graphql-request';
 
